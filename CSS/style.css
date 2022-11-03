@@ -55,5 +55,51 @@ nav ul li a:hover{
         transition: .4s;
             }
 
+.content{
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        }
+h1{
+    color: white;
+    font-size: 75px;
+    margin: 20px 0px 20px;
+    }
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    }
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+    }
+.mail form{
+        width: 380px;
+        max-width: 100%;
+        position: relative;
+        }
 
-
+.mail form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding:14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.mail form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding:9px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    cursor: pointer;
+    top:6px;
+    right: 6px;
+    
+    
+}
