@@ -8,11 +8,15 @@
 .profile{
     height: 100vh;
     width: 100%;
-    background-color: black;
-   /* background-image: url();
+   background-color: white;
+    background-image: url(../images/IMG_20220103_103745.jpg);
     background-size: cover;
-    background-position: center;*/
+    background-position: center;
+    
+    
+    
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -102,4 +106,50 @@ h4{
     right: 6px;
     
     
+}
+
+.about{
+    width:100%;
+    padding: 100px 0px;
+    background-color:gray;
+}
+
+.about-text{
+    width: 550px;
+
+
+}
+.about-page{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0px auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+}
+
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 17px;
+    margin-bottom: 45px;
+
+
 }
