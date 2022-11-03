@@ -58,6 +58,7 @@ nav ul li a:hover{
         color: #f9004d;
         transition: .4s;
             }
+/*primary content*/
 
 .content{
         position: absolute;
@@ -108,10 +109,12 @@ h4{
     
 }
 
+/*About*/
+
 .about{
     width:100%;
     padding: 100px 0px;
-    background-color:gray;
+    background-color:black;
 }
 
 .about-text{
@@ -145,7 +148,7 @@ h4{
 }
 
 .about-text p{
-    color: #fcfc;
+    color:white;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 17px;
@@ -153,3 +156,29 @@ h4{
 
 
 }
+/*footer*/
+footer .social{
+    background-color: #fcfc;
+    
+    align-items: center;
+    padding-bottom: 0px;
+    padding-left: 48%;
+   
+}
+footer .social a{
+    color:#f9004d;
+    font-size: 20px;
+    width:45px;
+    height: 45px;
+    line-height: 39px;
+    display: inline-block;
+    
+   
+}
+footer .social h6{
+    color:#f9004d;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding-left: 6%;
+}
+
